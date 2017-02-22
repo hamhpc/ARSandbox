@@ -63,49 +63,43 @@ This step may be optional depending on how your disks are discovered. If it dete
 ![Select Installation Destination](/images/select-installation-destination.png)
 
 #### 4a.) Configure for Automatic partition configuration
-{{ :departments:geology:tewksbury:auto-configure-disks.png?nolink&600 |Auto Configure Disks}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
+
+![Configure for Automatic partition configuration](/images/auto-configure-disks.png)
 
 #### 4b.) Delete All
-{{ :departments:geology:tewksbury:delete-all.png?nolink&600 |Delete All}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
+
+![Delete All](/images/delete-all.png)
 
 #### 4c.) Reclaim Space
-{{ :departments:geology:tewksbury:reclaim-space.png?nolink&600 |Reclaim Space}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
+
+![Reclaim Space](/images/reclaim-space.png)
 
 ### 5.) Begin installation
 {{ :departments:geology:tewksbury:begin-installation.png?nolink&600 |}} 
-![Boot the host from CDROM](/images/boot-cdrom.png)
+![Begin Installation](/images/begin-installation.png)
 
 ### 6.) Take a Break
  While the machine is building itself .. take a break as this could take a few minute to complete. Once it's up we'll be ready to log in and configure the ARSandbox software and Devices. 
-{{ :departments:geology:tewksbury:starting-installation.png?nolink&600 |Starting Installation}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
+
+![Starting Installation](/images/starting-installation.png)
 
 ### 7.) Reboot when complete
 Make sure you remove the CDROM before rebooting the machine. 
-{{ :departments:geology:tewksbury:reboot.png?nolink&600 |Reboot Server}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
+
+![Reboot when complete](/images/reboot.png)
 
 ## Initial Login
- Select the arsandbox user account. 
-{{ :departments:geology:tewksbury:login-as-arsandbox.png?nolink&600 |Login as arsandbox}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
 
-### 1.) Enter the password
-  Use the password: arsandbox to log into the host. 
-{{ :departments:geology:tewksbury:enter-the-password.png?nolink&600 |enter arsandbox password}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
+The host is configured to automatically log into the arsandbox user account. 
 
-### 2.) Select Konsole
+### Select Konsole
  Right click the desktop and choose Konsole
-{{ :departments:geology:tewksbury:open-konsole.png?nolink&600 |Open Konsole}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
 
-### 3.) Start typing commands
-{{ :departments:geology:tewksbury:command-window.png?nolink&600 |Command Window}}
-![Boot the host from CDROM](/images/boot-cdrom.png)
+![Boot the host from CDROM](/images/open-konsole.png)
+
+### Start typing commands
+
+![Type commands](/images/command-window.png)
 
 ## Hardware Calibration
 
