@@ -44,7 +44,7 @@ In order to get the installer to use this configuration we need to supply additi
 ### 1.) Boot the host from the CDROM
 {{ :departments:geology:tewksbury:boot-cdrom.png?nolink&600 |Boot CDROM}}
 
-![Boot the host from CDROM](arsandbox/images/boot-cdrom.png)
+![Boot the host from CDROM](/images/boot-cdrom.png)
 
 ### 2.) Press TAB at installation menu
 {{ :departments:geology:tewksbury:press-tab-at-boot-screen.png?nolink&600 |Press Tab}}
