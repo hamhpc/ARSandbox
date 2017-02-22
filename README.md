@@ -138,9 +138,10 @@ Extract Planes
 
 You need to enter the base plane equation (and the 3D sand surface extents in the next step) into the BoxLayout.txt file in /usr/local/etc/SARndbox-2.3
 
-  % cd /usr/local/etc/SARndbox-2.3
-  % kwrite BoxLayout.txt
-
+```
+ % cd /usr/local/etc/SARndbox-2.3
+ % kwrite BoxLayout.txt
+```
 Now enter the base plane equation as described in the video. To copy text from a terminal window, highlight the desired text with the mouse, and then either right-click into the terminal window and select “Copy” from the pop-up menu that appears, or press Shift-Ctrl-c. To paste into the text editor, use the “Edit” menu, or press Ctrl-v.
 
 Pro tip: The quickest way to copy&paste text from any window into any other window is: 
