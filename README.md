@@ -56,7 +56,7 @@ after the word "quiet" add the following:
 ks=https://raw.githubusercontent.com/hamhpc/ARSandbox/master/ks_arsandbox.cfg
 ```
 
-![Enter ks bootloader argument](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/add-kickstart-configuration.png)
+![Enter ks bootloader argument](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/add-kickstart-config.png)
 
 Press Enter to continue. 
 
