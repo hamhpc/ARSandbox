@@ -253,7 +253,8 @@ Finally, run the main AR Sandbox application:
   * The arsandbox user password is "arsandbox"
   * The original sources are installed in /opt
   * The applications are compiled in /opt and then installed into the /usr/local directories. 
-  * The user arsandbox owns the files in /opt and /usr/local so that account has full control over these installations to make changed as needed. 
+  * The user arsandbox owns the files in /opt and /usr/local so that account has full control over these installations to make changed as needed.
+  * SELinux and Firewall is disabled so remember this isn't a secure as it could be if you leave it plugged into the network.
   * The user arsandbox is also a sudoer.. meaning if you need root access you can become root using the following command:
 
 ```
