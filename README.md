@@ -51,8 +51,11 @@ In order to get the installer to use this configuration we need to supply additi
 
 ### 3.) Enter ks bootloader argument
 after the word "quiet" add the following: 
-  ks=https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg
-  
+
+```
+ks=https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg
+```
+
 ![Enter ks bootloaer argument](/images/add-kickstart-configuration.png)
 
 Press Enter to continue. 
