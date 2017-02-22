@@ -37,17 +37,17 @@ Most PC BIOS's will allow you to temporarily boot from another medium (USB, CD, 
 
 # Installation
 
-The machine will get built according to this [ARSandbox machine kickstart file](https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg)
+The machine will get built according to this [ARSandbox machine kickstart file](https://raw.githubusercontent.com/hamhpc/ARSandbox/master/ks_arsandbox.cfg)
 
 In order to get the installer to use this configuration we need to supply additional arguments to the bootloader. 
 
 ## 1.) Boot the host from the CDROM
 
-![Boot the host from CDROM](/hamhpc/ARSandbox/assets/images/boot-cdrom.png)
+![Boot the host from CDROM](https://raw.githubusercontent.com/hamhpc/ARSandbox/assets/images/boot-cdrom.png)
 
 ## 2.) Press TAB at installation menu
 
-![Press Tab at installation menu](https://github.com/hamhpc/ARSandbox/assets/images/press-tab-at-boot-screen.png)
+![Press Tab at installation menu](https://raw.githubusercontent.com/hamhpc/ARSandbox/assets/images/press-tab-at-boot-screen.png)
 
 ## 3.) Enter ks bootloader argument
 after the word "quiet" add the following: 
