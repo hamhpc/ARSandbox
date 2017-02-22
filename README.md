@@ -228,3 +228,5 @@ Finally, run the main AR Sandbox application:
   * The user arsandbox is also a sudoer.. meaning if you need root access you can become root using the following command:
 
   % sudo su -
+
+# Troubleshooting
