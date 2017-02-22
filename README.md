@@ -1,10 +1,10 @@
-# ARSandbox
-Installation of Augmented Reality Sandbox on CentOS 7
- = ARSandbox Installation on CentOS 7 =
+# ARSandbox Installation on CentOS 7
 
 The ARSandbox is an application provided by UC Davis (https://arsandbox.ucdavis.edu/). It's used to build a Linux based computer that can control a projector and a Xbox Kinnect camera. Using the two it can project and measure the sand in the box and draw the geological contours of the map in real time. 
 
-[[https://www.youtube.com/embed/j9JXtTj0mzE|YouTube Video]]
+[https://www.youtube.com/embed/j9JXtTj0mzE](YouTube Video)
+
+[![AR Sandbox Video](http://img.youtube.com/vi/j9JXtTj0mzE/0.jpg)](http://www.youtube.com/watch?v=j9JXtTj0mzE)
 
  {{url>https://www.youtube.com/embed/j9JXtTj0mzE 600,300 noscroll noborder center|You Tube Video}}
 
