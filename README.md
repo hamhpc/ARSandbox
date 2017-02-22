@@ -235,10 +235,10 @@ Finally, run the main AR Sandbox application:
 
 # Software Information
 
-  * Vrui is located at [https://github.com/KeckCAVES/Vrui|https://github.com/KeckCAVES/Vrui]
-  * Kinect is located at [https://github.com/KeckCAVES/Kinect|https://github.com/KeckCAVES/Kinect]
-  * SARndbox is located at [https://github.com/KeckCAVES/SARndbox|https://github.com/KeckCAVES/SARndbox]
-  * [https://arsandbox.ucdavis.edu/forums/topic/complete-installation-instructions/](Complete Installation Instructions)
+  * Vrui is located at [https://github.com/KeckCAVES/Vrui](https://github.com/KeckCAVES/Vrui)
+  * Kinect is located at [https://github.com/KeckCAVES/Kinect](https://github.com/KeckCAVES/Kinect)
+  * SARndbox is located at [https://github.com/KeckCAVES/SARndbox](https://github.com/KeckCAVES/SARndbox)
+  * [Complete Installation Instructions](https://arsandbox.ucdavis.edu/forums/topic/complete-installation-instructions/)
 
 # Installation Notes
 
