@@ -42,7 +42,6 @@ The machine will get built according to this [ARSandbox machine kickstart file](
 In order to get the installer to use this configuration we need to supply additional arguments to the bootloader. 
 
 ### 1.) Boot the host from the CDROM
-{{ :departments:geology:tewksbury:boot-cdrom.png?nolink&600 |Boot CDROM}}
 
 ![Boot the host from CDROM](/images/boot-cdrom.png)
 
