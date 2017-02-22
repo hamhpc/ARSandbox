@@ -22,11 +22,11 @@ It also helps minimize the steps needed to get this up and running since this au
 
 To make this process as simple as possible, to build the Linux host all you need to do is download the CentOS 7 minimal ISO installer. 
 
-You can download it from one of these [http://isoredirect.centos.org/centos/7/isos/x86_64/](mirrors.)
+You can download it from one of these [mirrors](http://isoredirect.centos.org/centos/7/isos/x86_64/)
 
 ### Create CDROM
 
-Burn the ISO to a CD so you can boot from it. This is a useful document for [https://www.centos.org/docs/5/html/CD_burning_howto.html](burning ISO's).
+Burn the ISO to a CD so you can boot from it. This is a useful document for [burning ISO's](https://www.centos.org/docs/5/html/CD_burning_howto.html).
 
 On a PC, you can right click the ISO file and choose "Burn image to disk" (need to double check verbiage SLY). 
 
@@ -43,6 +43,8 @@ In order to get the installer to use this configuration we need to supply additi
 
 ### 1.) Boot the host from the CDROM
 {{ :departments:geology:tewksbury:boot-cdrom.png?nolink&600 |Boot CDROM}}
+
+![Boot the host from CDROM][images/boot-cdrom.png]
 
 ### 2.) Press TAB at installation menu
 {{ :departments:geology:tewksbury:press-tab-at-boot-screen.png?nolink&600 |Press Tab}}
