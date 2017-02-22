@@ -101,7 +101,9 @@ Make sure you remove the CDROM before rebooting the machine.
 
 Plug in your first-generation Kinect device and download intrinsic calibration parameters directly from its firmware. In a terminal window, run:
 
+```
   % sudo /usr/local/bin/KinectUtil getCalib 0
+```
 
 Note: This might ask you for your password again; if so, enter it (arsandbox) to continue.
 
@@ -109,7 +111,9 @@ Note: This might ask you for your password again; if so, enter it (arsandbox) to
 
 Align your camera so that its field of view covers the interior of your sandbox. Use RawKinectViewer to guide you during alignment. To start it, run in a terminal window:
 
+```
   % sudo /usr/local/bin/RawKinectViewer -compress 0
+```
 
 While looking at the camera image in RawKinectViewer make sure the Kinect sensor is lined up with the sides of the sandbox. If the sandbox appears off from the viewport of the Kinect camera, tilt the Kinect camera until you can get these aligned. 
 
@@ -151,12 +155,15 @@ Pro tip: The quickest way to copy&paste text from any window into any other wind
 
 The equation will look something like the following from the RawConnectViewer output in the terminal: 
 
+```
   (-0.0076185, 0.0271708, 0.999602) = -98.0000
-  
+```
+
 Be sure to replace the = with a , and add the measured value from the cardboard to the bottom of the sandbox from above. The last number in this sequence is the depth. So in our example -98 becomes -114. So the first line of our BoxLayout.txt file has this:
-  
+ 
+ ```
   (-0.0076185, 0.0271708, 0.999602), -114.0000
-  
+```  
 
 ### Measure 3D extents of the Sand Surface
 
@@ -164,10 +171,12 @@ Be sure to replace the = with a , and add the measured value from the cardboard 
 
 In the terminal window from where you executed the RawConnectViewer you'll have the following four corner points: 
 
+```
   (  -48.6846899089,  -36.4482382583,    -94.8705084084)
   (   48.3846899089,  -34.3992382583,    -89.3885084084)
   (  -50.6746899089,   35.8072382583,    -97.4085084084)
   (   48.7946899089,   36.4782382583,    -91.7415084084)
+```
 
 Add these to the BoxLayout.txt file after the plane equation from the last step. No changes need to be made to the formatting from the terminal. 
 
@@ -177,8 +186,10 @@ You can now Exit RawKinectViewer and save BoxLayout.txt
 
 Align your projector such that its image fills the interior of your sandbox. You can use the calibration grid drawn by Vrui’s XBackground utility as a guide. In a terminal, run:
 
+```
   % /usr/local/bin/XBackground
-  
+```
+
 After the window showing the calibration grid appears, press the “f11” key to toggle it into full-screen mode. Ensure that the window really covers the entire screen, i.e., that there are no title bar, desktop panel, or other decorations left.
 
 Press Esc to close XBackground’s window when you’re done.
@@ -191,12 +202,15 @@ Create the calibration tool. This is made up of a CD disc with blank sheet of pa
 
 Calibrate the Kinect camera and the projector with respect to each other by running the CalibrateProjector utility:
 
-  % /usr/local/bin/CalibrateProjector -s <width> <height>
-
+```
+ % /usr/local/bin/CalibrateProjector -s <width> <height>
+```
   
 where <width> <height> are the width and height of your projector’s image in pixels. For example, for an XGA projector like the recommended BenQ, the command would be:
 
-  % /usr/local/bin/CalibrateProjector -s 1024 768
+```
+ % /usr/local/bin/CalibrateProjector -s 1024 768
+```
 
 Very important: switch CalibrateProjector’s window to full-screen mode by pressing F11 before proceeding. Then [[https://youtu.be/EW2PtRsQQr0?t=10m10s|follow the instructions in this video]], starting at 10:10.
 
@@ -209,8 +223,9 @@ Pressing the "1" key will take each reference point by lining up your crosshairs
 
 Finally, run the main AR Sandbox application:
 
+```
   % /usr/local/bin/SARndbox -uhm -fpv &
-
+```
 
 
 
@@ -229,6 +244,8 @@ Finally, run the main AR Sandbox application:
   * The user arsandbox owns the files in /opt and /usr/local so that account has full control over these installations to make changed as needed. 
   * The user arsandbox is also a sudoer.. meaning if you need root access you can become root using the following command:
 
+```
   % sudo su -
+```
 
 # Troubleshooting
