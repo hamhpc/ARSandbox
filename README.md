@@ -13,7 +13,7 @@ Why do I want this installed on CentOS if the developer shows installing on Ubun
 
 However, in Academics and Academic research programs, many Systems/IT Environments are heavily invested in Red Hat Enterprise Based Operating systems. So Ubuntu is something that isn't as common in the Data Center and skill-sets of IT. As a System's person myself, I do what I can to facilitate this gap between developer's and systems people. This helps everyone as when a researcher comes to IT for help with a project (like this one ARSandbox) it makes it more difficult for IT to try to manage an Operating System they aren't as familiar with.  
 
-So, using my Expertise with Red Hat based systems and kickstart I have built this procedure so to be able to give back to the open source project (ARSandbox). This contribution will allow other researchers who would like to utilize this research to be able to install and run it on a platform that IT is more familiar with so as to be able to get help from their local IT staff at their organization. 
+So, using my expertise with Red Hat based systems and kickstart I have built this procedure so to be able to give back to the open source project (ARSandbox). This contribution will allow other researchers who would like to utilize this research to be able to install and run it on a platform that IT is more familiar with so as to be able to get help from their local IT staff at their organization. 
 
 It also helps minimize the steps needed to get this up and running since this automatic procedure will compile and build the software as part of the Operating System installation. This may reduce the need for assistance from IT to assist faculty with their own attempts to build one of these platforms. 
 
