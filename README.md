@@ -43,11 +43,11 @@ In order to get the installer to use this configuration we need to supply additi
 
 ## 1.) Boot the host from the CDROM
 
-![Boot the host from CDROM](/images/boot-cdrom.png)
+![Boot the host from CDROM](/assests/images/boot-cdrom.png)
 
 ## 2.) Press TAB at installation menu
 
-![Press Tab at installation menu](/images/press-tab-at-boot-screen.png)
+![Press Tab at installation menu](/assests/images/press-tab-at-boot-screen.png)
 
 ## 3.) Enter ks bootloader argument
 after the word "quiet" add the following: 
@@ -56,44 +56,44 @@ after the word "quiet" add the following:
 ks=https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg
 ```
 
-![Enter ks bootloaer argument](/images/add-kickstart-configuration.png)
+![Enter ks bootloaer argument](/assests/images/add-kickstart-configuration.png)
 
 Press Enter to continue. 
 
 ## 4.) Select Installation Destination
 This step may be optional depending on how your disks are discovered. If it detects a previously installed OS you'll need to tell the software to over-write this old installation. 
 
-![Select Installation Destination](/images/select-installation-destination.png)
+![Select Installation Destination](/assests/images/select-installation-destination.png)
 
 ### 4a.) Configure for Automatic partition configuration
 
-![Configure for Automatic partition configuration](/images/auto-configure-disks.png)
+![Configure for Automatic partition configuration](/assests/images/auto-configure-disks.png)
 
 ### 4b.) Delete All
 
-![Delete All](/images/delete-all.png)
+![Delete All](/assests/images/delete-all.png)
 
 ### 4c.) Reclaim Space
 
-![Reclaim Space](/images/reclaim-space.png)
+![Reclaim Space](/assests/images/reclaim-space.png)
 
 ## 5.) Begin installation
 
-![Begin Installation](/images/begin-installation.png)
+![Begin Installation](/assests/images/begin-installation.png)
 
 ## 6.) Enter Root Password
 
-![Enter Root Password](/images/root-password.png)
+![Enter Root Password](/assests/images/root-password.png)
 
 ## 7.) Take a Break
  While the machine is building itself .. take a break as this could take a few minute to complete. Once it's up we'll be ready to log in and configure the ARSandbox software and Devices. 
 
-![Starting Installation](/images/starting-installation.png)
+![Starting Installation](/assests/images/starting-installation.png)
 
 ## 8.) Reboot when complete
 Make sure you remove the CDROM before rebooting the machine. 
 
-![Reboot when complete](/images/reboot.png)
+![Reboot when complete](/assests/images/reboot.png)
 
 # Initial Login
 
@@ -102,11 +102,11 @@ The host is configured to automatically log into the arsandbox user account.
 ## 1.) Select Konsole
  Right click the desktop and choose Konsole
 
-![Boot the host from CDROM](/images/open-konsole.png)
+![Boot the host from CDROM](/assests/images/open-konsole.png)
 
 ## 2.) Start typing commands
 
-![Type commands](/images/command-window.png)
+![Type commands](/assests/images/command-window.png)
 
 # Hardware Calibration
 
