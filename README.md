@@ -58,13 +58,13 @@ Press Enter to continue.
 This step may be optional depending on how your disks are discovered. If it detects a previously installed OS you'll need to tell the software to over-write this old installation. 
 {{ :departments:geology:tewksbury:select-installation-destination.png?nolink&600 |Select Installation Destination}}
 
-### 4a.) Configure for Automatic partition configuration
+#### 4a.) Configure for Automatic partition configuration
 {{ :departments:geology:tewksbury:auto-configure-disks.png?nolink&600 |Auto Configure Disks}}
 
-### 4b.) Delete All
+#### 4b.) Delete All
 {{ :departments:geology:tewksbury:delete-all.png?nolink&600 |Delete All}}
 
-### 4c.) Reclaim Space
+#### 4c.) Reclaim Space
 {{ :departments:geology:tewksbury:reclaim-space.png?nolink&600 |Reclaim Space}}
 
 ### 5.) Begin installation
