@@ -81,12 +81,16 @@ This step may be optional depending on how your disks are discovered. If it dete
 
 ![Begin Installation](/images/begin-installation.png)
 
-### 6.) Take a Break
+### 6.) Enter Root Password
+
+![Enter Root Password](/images/root-password.png)
+
+### 7.) Take a Break
  While the machine is building itself .. take a break as this could take a few minute to complete. Once it's up we'll be ready to log in and configure the ARSandbox software and Devices. 
 
 ![Starting Installation](/images/starting-installation.png)
 
-### 7.) Reboot when complete
+### 8.) Reboot when complete
 Make sure you remove the CDROM before rebooting the machine. 
 
 ![Reboot when complete](/images/reboot.png)
@@ -95,18 +99,18 @@ Make sure you remove the CDROM before rebooting the machine.
 
 The host is configured to automatically log into the arsandbox user account. 
 
-### Select Konsole
+### 1.) Select Konsole
  Right click the desktop and choose Konsole
 
 ![Boot the host from CDROM](/images/open-konsole.png)
 
-### Start typing commands
+### 2.) Start typing commands
 
 ![Type commands](/images/command-window.png)
 
 ## Hardware Calibration
 
-### Get Intrinsic Calibration Parameters
+### 1.) Get Intrinsic Calibration Parameters
 
 Plug in your first-generation Kinect device and download intrinsic calibration parameters directly from its firmware. In a terminal window, run:
 
@@ -116,7 +120,7 @@ Plug in your first-generation Kinect device and download intrinsic calibration p
 
 Note: This might ask you for your password again; if so, enter it (arsandbox) to continue.
 
-### Physically Align Camera
+### 2.) Physically Align Camera
 
 Align your camera so that its field of view covers the interior of your sandbox. Use RawKinectViewer to guide you during alignment. To start it, run in a terminal window:
 
@@ -126,7 +130,7 @@ Align your camera so that its field of view covers the interior of your sandbox.
 
 While looking at the camera image in RawKinectViewer make sure the Kinect sensor is lined up with the sides of the sandbox. If the sandbox appears off from the viewport of the Kinect camera, tilt the Kinect camera until you can get these aligned. 
 
-### Calculate Base Plane
+### 3.) Calculate Base Plane
 
  This step will calculate the plane (base level) of the SandBox. 
 
@@ -139,15 +143,15 @@ While looking at the camera image in RawKinectViewer make sure the Kinect sensor
 
 Calculate your sandbox’s base plane, by following the instructions in the AR Sandbox Calibration video (above) that shows all required calibration steps in one. You can use the already-running instance of RawKinectViewer.
 
-#### Average Frames
+#### 3a.) Average Frames
 
 Select average frames
 
-#### Define Base Plane
+#### 3b.) Define Base Plane
 
 Extract Planes 
 
-#### Enter Equation into BoxLayout.txt
+#### 4.) Enter Equation into BoxLayout.txt
 
 You need to enter the base plane equation (and the 3D sand surface extents in the next step) into the BoxLayout.txt file in /usr/local/etc/SARndbox-2.3
 
@@ -174,7 +178,7 @@ Be sure to replace the = with a , and add the measured value from the cardboard 
   (-0.0076185, 0.0271708, 0.999602), -114.0000
 ```  
 
-### Measure 3D extents of the Sand Surface
+### 5.) Measure 3D extents of the Sand Surface
 
 Note: Be sure to remove the cardboard covering the sandbox from the previous step. 
 
@@ -195,7 +199,7 @@ Add these to the BoxLayout.txt file after the plane equation from the last step.
 
 You can now Exit RawKinectViewer and save BoxLayout.txt
 
-### Align Projector
+### 6.) Align Projector
 
 Align your projector such that its image fills the interior of your sandbox. You can use the calibration grid drawn by Vrui’s XBackground utility as a guide. In a terminal, run:
 
@@ -207,7 +211,7 @@ After the window showing the calibration grid appears, press the “f11” key t
 
 Press Esc to close XBackground’s window when you’re done.
 
-### Calibrate the Projector
+### 7.) Calibrate the Projector
 
 Determine the resolution that your projector is running at. In our case it is running at 1024 X 768. 
 
@@ -234,7 +238,7 @@ Create a capture tool and bind it to the "2" key. This will allow you to re-capt
 Pressing the "1" key will take each reference point by lining up your crosshairs from the CD to the lines drawn in the sandbox. 
 
 
-## Run AR Sandbox
+## 8.) Run AR Sandbox
 
 Finally, run the main AR Sandbox application:
 
