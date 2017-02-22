@@ -28,7 +28,7 @@ You can download it from one of these [mirrors](http://isoredirect.centos.org/ce
 
 Burn the ISO to a CD so you can boot from it. This is a useful document for [burning ISO's](https://www.centos.org/docs/5/html/CD_burning_howto.html).
 
-On a PC, you can right click the ISO file and choose "Burn image to disk" (need to double check verbiage SLY). 
+On a PC, you can right click the ISO file and choose "Burn image to disk".
 
 ## Booting into a CD/DVD
 
