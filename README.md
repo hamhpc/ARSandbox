@@ -78,7 +78,7 @@ This step may be optional depending on how your disks are discovered. If it dete
 ![Reclaim Space](/images/reclaim-space.png)
 
 ### 5.) Begin installation
-{{ :departments:geology:tewksbury:begin-installation.png?nolink&600 |}} 
+
 ![Begin Installation](/images/begin-installation.png)
 
 ### 6.) Take a Break
