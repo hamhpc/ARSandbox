@@ -67,7 +67,7 @@ This step may be optional depending on how your disks are discovered. If it dete
 
 ### 4a.) Configure for Automatic partition configuration
 
-![Configure for Automatic partition configuration](/assests/images/auto-configure-disks.png)
+![Configure for Automatic partition configuration](/assets/images/auto-configure-disks.png)
 
 ### 4b.) Delete All
 
