@@ -212,7 +212,7 @@ where <width> <height> are the width and height of your projector’s image in p
  % /usr/local/bin/CalibrateProjector -s 1024 768
 ```
 
-Very important: switch CalibrateProjector’s window to full-screen mode by pressing F11 before proceeding. Then [[https://youtu.be/EW2PtRsQQr0?t=10m10s|follow the instructions in this video]], starting at 10:10.
+Very important: switch CalibrateProjector’s window to full-screen mode by pressing F11 before proceeding. Then [follow the instructions in this video]](https://youtu.be/EW2PtRsQQr0?t=10m10s), starting at 10:10.
 
 Create a capture tool and bind it to the "2" key. This will allow you to re-capture a background image after you've changed the topography of the sand. 
 
