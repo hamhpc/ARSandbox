@@ -81,16 +81,20 @@ This step may be optional depending on how your disks are discovered. If it dete
 
 ![Begin Installation](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/begin-installation.png)
 
-## 6.) Enter Root Password
+## 6.) Select Root Password
 
-![Enter Root Password](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/root-password.png)
+![Enter Root Password](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/select-root-password.png)
 
-## 7.) Take a Break
+## 7.) Enter Root Password
+
+![Enter Root Password](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/enter-root-password.png)
+
+## 8.) Take a Break
  While the machine is building itself .. take a break as this could take a few minute to complete. Once it's up we'll be ready to log in and configure the ARSandbox software and Devices. 
 
 ![Starting Installation](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/starting-installation.png)
 
-## 8.) Reboot when complete
+## 9.) Reboot when complete
 Make sure you remove the CDROM before rebooting the machine. 
 
 ![Reboot when complete](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/reboot.png)
