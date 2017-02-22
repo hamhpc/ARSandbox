@@ -229,11 +229,10 @@ Press Esc to close XBackground’s window when you’re done.
 ## 7.) Calibrate the Projector
 
 Determine the resolution that your projector is running at. In our case it is running at 1024 X 768. You will also need to have created the calibration tool. This consists of: 
+
   * CDROM Disk
   * Coat Hanger
   * blank sheet of paper
-  
- glue the sheet of paper to the CDROM. Then draw a plus sign over the paper. Tape the coat hanger to the underside of this disc. 
 
 Create the calibration tool. This is made up of a CD disc with blank sheet of paper glued to it. On the paper you have two lines perpendicular to one another, one horizontally and one vertically so that they make up a + sign with a point in the center of the disc. Using a wire coat hanger proved to work the best to form a handle to use when taking reference points. 
 
