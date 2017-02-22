@@ -292,3 +292,5 @@ Finally, run the main AR Sandbox application:
 ```
 
 # Troubleshooting
+
+ * [AR Sandbox Forum](https://arsandbox.ucdavis.edu/forums/forum/ar-sandbox-forum/)
