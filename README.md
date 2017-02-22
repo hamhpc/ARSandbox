@@ -43,13 +43,13 @@ The machine will get built according to this [[ http://grid.hpc.hamilton.edu/kic
 
 In order to get the installer to use this configuration we need to supply additional arguments to the bootloader. 
 
-### 1.) Boot the host from the CDROM ===
+### 1.) Boot the host from the CDROM
 {{ :departments:geology:tewksbury:boot-cdrom.png?nolink&600 |Boot CDROM}}
 
-### 2.) Press TAB at installation menu ===
+### 2.) Press TAB at installation menu
 {{ :departments:geology:tewksbury:press-tab-at-boot-screen.png?nolink&600 |Press Tab}}
 
-### 3.) Enter ks bootloader argument ===
+### 3.) Enter ks bootloader argument
 after the word "quiet" add the following: 
   ks=http://grid.hpc.hamilton.edu/kickstart/ks_arsandbox.cfg  
 {{ :departments:geology:tewksbury:add-kickstart-configuration.png?nolink&600 |Add KS configuration}}
