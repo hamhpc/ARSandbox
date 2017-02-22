@@ -37,8 +37,7 @@ Most PC BIOS's will allow you to temporarily boot from another medium (USB, CD, 
 
 ## Installation
 
-The machine will get built according to this [ http://grid.hpc.hamilton.edu/kickstart/ks_arsandbox.cfg]( ARSandbox machine kickstart file). 
-
+The machine will get built according to this [ARSandbox machine kickstart file](https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg)
 In order to get the installer to use this configuration we need to supply additional arguments to the bootloader. 
 
 ### 1.) Boot the host from the CDROM
