@@ -56,44 +56,44 @@ after the word "quiet" add the following:
 ks=https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg
 ```
 
-![Enter ks bootloader argument](/assets/images/add-kickstart-configuration.png)
+![Enter ks bootloader argument](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/add-kickstart-configuration.png)
 
 Press Enter to continue. 
 
 ## 4.) Select Installation Destination
 This step may be optional depending on how your disks are discovered. If it detects a previously installed OS you'll need to tell the software to over-write this old installation. 
 
-![Select Installation Destination](/assets/images/select-installation-destination.png)
+![Select Installation Destination](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/select-installation-destination.png)
 
 ### 4a.) Configure for Automatic partition configuration
 
-![Configure for Automatic partition configuration](/assets/images/auto-configure-disks.png)
+![Configure for Automatic partition configuration](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/auto-configure-disks.png)
 
 ### 4b.) Delete All
 
-![Delete All](/assets/images/delete-all.png)
+![Delete All](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/delete-all.png)
 
 ### 4c.) Reclaim Space
 
-![Reclaim Space](/assets/images/reclaim-space.png)
+![Reclaim Space](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/reclaim-space.png)
 
 ## 5.) Begin installation
 
-![Begin Installation](/assets/images/begin-installation.png)
+![Begin Installation](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/begin-installation.png)
 
 ## 6.) Enter Root Password
 
-![Enter Root Password](/assets/images/root-password.png)
+![Enter Root Password](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/root-password.png)
 
 ## 7.) Take a Break
  While the machine is building itself .. take a break as this could take a few minute to complete. Once it's up we'll be ready to log in and configure the ARSandbox software and Devices. 
 
-![Starting Installation](/assets/images/starting-installation.png)
+![Starting Installation](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/starting-installation.png)
 
 ## 8.) Reboot when complete
 Make sure you remove the CDROM before rebooting the machine. 
 
-![Reboot when complete](/assets/images/reboot.png)
+![Reboot when complete](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/reboot.png)
 
 # Initial Login
 
@@ -102,11 +102,11 @@ The host is configured to automatically log into the arsandbox user account.
 ## 1.) Select Konsole
  Right click the desktop and choose Konsole
 
-![Boot the host from CDROM](/assets/images/open-konsole.png)
+![Boot the host from CDROM](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/open-konsole.png)
 
 ## 2.) Start typing commands
 
-![Type commands](/assets/images/command-window.png)
+![Type commands](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/command-window.png)
 
 # Video Card Driver
 
