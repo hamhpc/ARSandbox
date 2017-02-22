@@ -1,6 +1,6 @@
 # ARSandbox
 Installation of Augmented Reality Sandbox on CentOS 7
-= ARSandbox Installation on CentOS 7 =
+ = ARSandbox Installation on CentOS 7 =
 
 The ARSandbox is an application provided by UC Davis (https://arsandbox.ucdavis.edu/). It's used to build a Linux based computer that can control a projector and a Xbox Kinnect camera. Using the two it can project and measure the sand in the box and draw the geological contours of the map in real time. 
 
@@ -8,7 +8,7 @@ The ARSandbox is an application provided by UC Davis (https://arsandbox.ucdavis.
 
  {{url>https://www.youtube.com/embed/j9JXtTj0mzE 600,300 noscroll noborder center|You Tube Video}}
 
-== Why CentOS? ==
+ == Why CentOS? ==
 
 Why do I want this installed on CentOS if the developer shows installing on Ubuntu? This is a common issue within the world of Open Source Software. Many developers make the choice to use Ubuntu to develop their applications. It's a choice based on the fact that Ubuntu has a better environment as a Desktop computer system. 
 
@@ -21,13 +21,13 @@ It also helps minimize the steps needed to get this up and running since this au
 For questions with this process please contact me at: [[slyoung@hamilton.edu]]
 
 
-== Requirements ==
+ == Requirements ==
 
 To make this process as simple as possible, to build the Linux host all you need to do is download the CentOS 7 minimal ISO installer. 
 
 You can download it from one of these [[http://isoredirect.centos.org/centos/7/isos/x86_64/|mirrors.]]
 
-=== Create CDROM ===
+ === Create CDROM ===
 
 Burn the ISO to a CD so you can boot from it. This is a useful document for [[https://www.centos.org/docs/5/html/CD_burning_howto.html|burning ISO's]].
 
