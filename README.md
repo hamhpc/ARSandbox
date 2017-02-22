@@ -173,6 +173,8 @@ Be sure to replace the = with a , and add the measured value from the cardboard 
 
 ### Measure 3D extents of the Sand Surface
 
+Note: Be sure to remove the cardboard covering the sandbox from the last step. 
+
  In the newly-released Kinect-3.2 package, this can be done inside RawKinectViewer as well by [following the instructions in this video](https://youtu.be/EW2PtRsQQr0?t=4m10s), starting at 4:10. Make sure to measure the box corners in the order lower-left, lower-right, upper-left, upper-right. After you have copied the box corner positions into the text editor as described in the video, save the file (via the “File” menu or by pressing Ctrl-s), and quit from the text editor (via the “File” menu or by pressing Ctrl-q).
 
 [![Measure 3D Extents](http://img.youtube.com/vi/EW2PtRsQQr0/0.jpg)](http://www.youtube.com/watch?v=EW2PtRsQQr0?t=4m10s)
