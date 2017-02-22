@@ -123,7 +123,7 @@ While looking at the camera image in RawKinectViewer make sure the Kinect sensor
 
  If your box has sand in it put a sheet of cardboard or other flat surface over the top of the box. If you use this method, remember to measure the distance (in cm) from the cardboard to the bottom of the sandbox. In this case, the bottom of the box was 16cm below the cardboard. When you get the base plane equation from the rest of this step remember to add the value, from your measurement, to the last number in the equation. It's all explained in the following video:
 
-[https://www.youtube.com/watch?v=EW2PtRsQQr0](|YouTube Video)
+[YouTube Video](https://www.youtube.com/watch?v=EW2PtRsQQr0)
 
 [![Calculate Base Plane](http://img.youtube.com/vi/EW2PtRsQQr0/0.jpg)](http://www.youtube.com/watch?v=EW2PtRsQQr0)
 
@@ -167,7 +167,9 @@ Be sure to replace the = with a , and add the measured value from the cardboard 
 
 ### Measure 3D extents of the Sand Surface
 
- In the newly-released Kinect-3.2 package, this can be done inside RawKinectViewer as well by [[https://youtu.be/EW2PtRsQQr0?t=4m10s|following the instructions in this video]], starting at 4:10. Make sure to measure the box corners in the order lower-left, lower-right, upper-left, upper-right. After you have copied the box corner positions into the text editor as described in the video, save the file (via the “File” menu or by pressing Ctrl-s), and quit from the text editor (via the “File” menu or by pressing Ctrl-q).
+ In the newly-released Kinect-3.2 package, this can be done inside RawKinectViewer as well by [following the instructions in this video](https://youtu.be/EW2PtRsQQr0?t=4m10s), starting at 4:10. Make sure to measure the box corners in the order lower-left, lower-right, upper-left, upper-right. After you have copied the box corner positions into the text editor as described in the video, save the file (via the “File” menu or by pressing Ctrl-s), and quit from the text editor (via the “File” menu or by pressing Ctrl-q).
+
+[![Measure 3D Extents](http://img.youtube.com/vi/EW2PtRsQQr0/0.jpg)](http://www.youtube.com/watch?v=EW2PtRsQQr0?t=4m10s)
 
 In the terminal window from where you executed the RawConnectViewer you'll have the following four corner points: 
 
@@ -213,6 +215,8 @@ where <width> <height> are the width and height of your projector’s image in p
 ```
 
 Very important: switch CalibrateProjector’s window to full-screen mode by pressing F11 before proceeding. Then [follow the instructions in this video]](https://youtu.be/EW2PtRsQQr0?t=10m10s), starting at 10:10.
+
+[![Calibrate Projector](http://img.youtube.com/vi/EW2PtRsQQr0/0.jpg)](http://www.youtube.com/watch?v=EW2PtRsQQr0?t=10m10s)
 
 Create a capture tool and bind it to the "2" key. This will allow you to re-capture a background image after you've changed the topography of the sand. 
 
