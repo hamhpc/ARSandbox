@@ -6,7 +6,6 @@ The ARSandbox is an application provided by UC Davis (https://arsandbox.ucdavis.
 
 [![AR Sandbox Video](http://img.youtube.com/vi/j9JXtTj0mzE/0.jpg)](http://www.youtube.com/watch?v=j9JXtTj0mzE)
 
- {{url>https://www.youtube.com/embed/j9JXtTj0mzE 600,300 noscroll noborder center|You Tube Video}}
 
 # Why CentOS? 
 
@@ -18,17 +17,16 @@ So, using my Expertise with Red Hat based systems and kickstart I have built thi
 
 It also helps minimize the steps needed to get this up and running since this automatic procedure will compile and build the software as part of the Operating System installation. This may reduce the need for assistance from IT to assist faculty with their own attempts to build one of these platforms. 
 
-For questions with this process please contact me at: [[slyoung@hamilton.edu]]
 
 ## Requirements 
 
 To make this process as simple as possible, to build the Linux host all you need to do is download the CentOS 7 minimal ISO installer. 
 
-You can download it from one of these [[http://isoredirect.centos.org/centos/7/isos/x86_64/|mirrors.]]
+You can download it from one of these [http://isoredirect.centos.org/centos/7/isos/x86_64/](mirrors.)
 
 ### Create CDROM
 
-Burn the ISO to a CD so you can boot from it. This is a useful document for [[https://www.centos.org/docs/5/html/CD_burning_howto.html|burning ISO's]].
+Burn the ISO to a CD so you can boot from it. This is a useful document for [https://www.centos.org/docs/5/html/CD_burning_howto.html](burning ISO's).
 
 On a PC, you can right click the ISO file and choose "Burn image to disk" (need to double check verbiage SLY). 
 
@@ -39,7 +37,7 @@ Most PC BIOS's will allow you to temporarily boot from another medium (USB, CD, 
 
 ## Installation
 
-The machine will get built according to this [[ http://grid.hpc.hamilton.edu/kickstart/ks_arsandbox.cfg| ARSandbox machine kickstart file]]. 
+The machine will get built according to this [ http://grid.hpc.hamilton.edu/kickstart/ks_arsandbox.cfg]( ARSandbox machine kickstart file). 
 
 In order to get the installer to use this configuration we need to supply additional arguments to the bootloader. 
 
@@ -120,9 +118,10 @@ While looking at the camera image in RawKinectViewer make sure the Kinect sensor
 
  If your box has sand in it put a sheet of cardboard or other flat surface over the top of the box. If you use this method, remember to measure the distance (in cm) from the cardboard to the bottom of the sandbox. In this case, the bottom of the box was 16cm below the cardboard. When you get the base plane equation from the rest of this step remember to add the value, from your measurement, to the last number in the equation. It's all explained in the following video:
 
-[[https://www.youtube.com/watch?v=EW2PtRsQQr0|YouTube Video]]
+[https://www.youtube.com/watch?v=EW2PtRsQQr0](|YouTube Video)
 
- {{url>https://www.youtube.com/embed/EW2PtRsQQr0 560,315 noscroll noborder center|You Tube Video}}
+[![Calculate Base Plane](http://img.youtube.com/vi/EW2PtRsQQr0/0.jpg)](http://www.youtube.com/watch?v=EW2PtRsQQr0)
+
 
 Calculate your sandbox’s base plane, by following the instructions in the AR Sandbox Calibration video (above) that shows all required calibration steps in one. You can use the already-running instance of RawKinectViewer.
 
@@ -215,10 +214,10 @@ Finally, run the main AR Sandbox application:
 
 # Software Information
 
-  * Vrui is located at [[https://github.com/KeckCAVES/Vrui|https://github.com/KeckCAVES/Vrui]]
-  * Kinect is located at [[https://github.com/KeckCAVES/Kinect|https://github.com/KeckCAVES/Kinect]]
-  * SARndbox is located at [[https://github.com/KeckCAVES/SARndbox|https://github.com/KeckCAVES/SARndbox]]
-  * [[https://arsandbox.ucdavis.edu/forums/topic/complete-installation-instructions/|Complete Installation Instructions]]
+  * Vrui is located at [https://github.com/KeckCAVES/Vrui|https://github.com/KeckCAVES/Vrui]
+  * Kinect is located at [https://github.com/KeckCAVES/Kinect|https://github.com/KeckCAVES/Kinect]
+  * SARndbox is located at [https://github.com/KeckCAVES/SARndbox|https://github.com/KeckCAVES/SARndbox]
+  * [https://arsandbox.ucdavis.edu/forums/topic/complete-installation-instructions/](Complete Installation Instructions)
 
 # Installation Notes
 
