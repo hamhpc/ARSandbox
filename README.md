@@ -108,7 +108,15 @@ The host is configured to automatically log into the arsandbox user account.
 
 ![Type commands](/assets/images/command-window.png)
 
+# Video Card Driver
+
+Now that the basic operating system is installed you'll most likely want to get and install the video card driver for your particular card. Most likely out of the box the operating system is using a more generic driver and can't take advantage of the hardware acceleration of the Graphis card. Using the driver from the manufacture is generally preferred since it can fully utilize your hardware. 
+
+I won't go into the details of installation of the driver for your card here. While this will work out of the box with the basic driver you may find the advanced features (ie. water) as well as the resolution of the projected image won't be as good as using the correct driver from the manufacture. 
+
 # Hardware Calibration
+
+Now that the operating system is installed you can use the following steps to calibrate and configure the devices. 
 
 ## 1.) Get Intrinsic Calibration Parameters
 
