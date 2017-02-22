@@ -43,11 +43,11 @@ In order to get the installer to use this configuration we need to supply additi
 
 ## 1.) Boot the host from the CDROM
 
-![Boot the host from CDROM](/ARSandbox/assets/images/boot-cdrom.png)
+![Boot the host from CDROM](/hamhpc/ARSandbox/assets/images/boot-cdrom.png)
 
 ## 2.) Press TAB at installation menu
 
-![Press Tab at installation menu](/ARSandbox/assets/images/press-tab-at-boot-screen.png)
+![Press Tab at installation menu](https://github.com/hamhpc/ARSandbox/assets/images/press-tab-at-boot-screen.png)
 
 ## 3.) Enter ks bootloader argument
 after the word "quiet" add the following: 
