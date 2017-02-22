@@ -43,7 +43,7 @@ In order to get the installer to use this configuration we need to supply additi
 
 ## 1.) Boot the host from the CDROM
 
-![Boot the host from CDROM](https://github.com/hamhpc/ARSandbox/blob/master/assets/images/boot-cdrom.png)
+![Boot the host from CDROM](assets/images/boot-cdrom.png)
 
 ## 2.) Press TAB at installation menu
 
