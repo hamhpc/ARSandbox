@@ -114,6 +114,13 @@ Now that the basic operating system is installed you'll most likely want to get 
 
 I won't go into the details of installation of the driver for your card here. While this will work out of the box with the basic driver you may find the advanced features (ie. water) as well as the resolution of the projected image won't be as good as using the correct driver from the manufacture. 
 
+A useful command to determine your card is the lspci command. Use it to see what devices are connected to the PCI bus. 
+
+```
+[root@localhost]# lspci | grep -i VGA
+01:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Cedar [Radeon HD 5000/6000/7350/8350 Series]
+[root@localhost]# 
+```
 # Hardware Calibration
 
 Now that the operating system is installed you can use the following steps to calibrate and configure the devices. 
