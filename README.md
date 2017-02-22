@@ -18,38 +18,38 @@ So, using my expertise with Red Hat based systems and kickstart I have built thi
 It also helps minimize the steps needed to get this up and running since this automatic procedure will compile and build the software as part of the Operating System installation. This may reduce the need for assistance from IT to assist faculty with their own attempts to build one of these platforms. 
 
 
-## Requirements 
+# Requirements 
 
 To make this process as simple as possible, to build the Linux host all you need to do is download the CentOS 7 minimal ISO installer. 
 
 You can download it from one of these [mirrors](http://isoredirect.centos.org/centos/7/isos/x86_64/)
 
-### Create CDROM
+## Create CDROM
 
 Burn the ISO to a CD so you can boot from it. This is a useful document for [burning ISO's](https://www.centos.org/docs/5/html/CD_burning_howto.html).
 
 On a PC, you can right click the ISO file and choose "Burn image to disk" (need to double check verbiage SLY). 
 
-### Booting into a CD/DVD
+## Booting into a CD/DVD
 
 Most PC BIOS's will allow you to temporarily boot from another medium (USB, CD, etc) by pressing the F12 (or possibly another F key) when the system boots up. This will provide you with a menu of choices to boot from. Select the CDROM/DVD device. 
 
 
-## Installation
+# Installation
 
 The machine will get built according to this [ARSandbox machine kickstart file](https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg)
 
 In order to get the installer to use this configuration we need to supply additional arguments to the bootloader. 
 
-### 1.) Boot the host from the CDROM
+## 1.) Boot the host from the CDROM
 
 ![Boot the host from CDROM](/images/boot-cdrom.png)
 
-### 2.) Press TAB at installation menu
+## 2.) Press TAB at installation menu
 
 ![Press Tab at installation menu](/images/press-tab-at-boot-screen.png)
 
-### 3.) Enter ks bootloader argument
+## 3.) Enter ks bootloader argument
 after the word "quiet" add the following: 
 
 ```
@@ -60,57 +60,57 @@ ks=https://raw.githubusercontent.com/hamhpc/arsandbox/master/ks_arsandbox.cfg
 
 Press Enter to continue. 
 
-### 4.) Select Installation Destination
+## 4.) Select Installation Destination
 This step may be optional depending on how your disks are discovered. If it detects a previously installed OS you'll need to tell the software to over-write this old installation. 
 
 ![Select Installation Destination](/images/select-installation-destination.png)
 
-#### 4a.) Configure for Automatic partition configuration
+### 4a.) Configure for Automatic partition configuration
 
 ![Configure for Automatic partition configuration](/images/auto-configure-disks.png)
 
-#### 4b.) Delete All
+### 4b.) Delete All
 
 ![Delete All](/images/delete-all.png)
 
-#### 4c.) Reclaim Space
+### 4c.) Reclaim Space
 
 ![Reclaim Space](/images/reclaim-space.png)
 
-### 5.) Begin installation
+## 5.) Begin installation
 
 ![Begin Installation](/images/begin-installation.png)
 
-### 6.) Enter Root Password
+## 6.) Enter Root Password
 
 ![Enter Root Password](/images/root-password.png)
 
-### 7.) Take a Break
+## 7.) Take a Break
  While the machine is building itself .. take a break as this could take a few minute to complete. Once it's up we'll be ready to log in and configure the ARSandbox software and Devices. 
 
 ![Starting Installation](/images/starting-installation.png)
 
-### 8.) Reboot when complete
+## 8.) Reboot when complete
 Make sure you remove the CDROM before rebooting the machine. 
 
 ![Reboot when complete](/images/reboot.png)
 
-## Initial Login
+# Initial Login
 
 The host is configured to automatically log into the arsandbox user account. 
 
-### 1.) Select Konsole
+## 1.) Select Konsole
  Right click the desktop and choose Konsole
 
 ![Boot the host from CDROM](/images/open-konsole.png)
 
-### 2.) Start typing commands
+## 2.) Start typing commands
 
 ![Type commands](/images/command-window.png)
 
-## Hardware Calibration
+# Hardware Calibration
 
-### 1.) Get Intrinsic Calibration Parameters
+## 1.) Get Intrinsic Calibration Parameters
 
 Plug in your first-generation Kinect device and download intrinsic calibration parameters directly from its firmware. In a terminal window, run:
 
@@ -120,7 +120,7 @@ Plug in your first-generation Kinect device and download intrinsic calibration p
 
 Note: This might ask you for your password again; if so, enter it (arsandbox) to continue.
 
-### 2.) Physically Align Camera
+## 2.) Physically Align Camera
 
 Align your camera so that its field of view covers the interior of your sandbox. Use RawKinectViewer to guide you during alignment. To start it, run in a terminal window:
 
@@ -130,7 +130,7 @@ Align your camera so that its field of view covers the interior of your sandbox.
 
 While looking at the camera image in RawKinectViewer make sure the Kinect sensor is lined up with the sides of the sandbox. If the sandbox appears off from the viewport of the Kinect camera, tilt the Kinect camera until you can get these aligned. 
 
-### 3.) Calculate Base Plane
+## 3.) Calculate Base Plane
 
  This step will calculate the plane (base level) of the SandBox. 
 
@@ -143,15 +143,15 @@ While looking at the camera image in RawKinectViewer make sure the Kinect sensor
 
 Calculate your sandbox’s base plane, by following the instructions in the AR Sandbox Calibration video (above) that shows all required calibration steps in one. You can use the already-running instance of RawKinectViewer.
 
-#### 3a.) Average Frames
+### 3a.) Average Frames
 
 Select average frames
 
-#### 3b.) Define Base Plane
+### 3b.) Define Base Plane
 
 Extract Planes 
 
-#### 4.) Enter Equation into BoxLayout.txt
+## 4.) Enter Equation into BoxLayout.txt
 
 You need to enter the base plane equation (and the 3D sand surface extents in the next step) into the BoxLayout.txt file in /usr/local/etc/SARndbox-2.3
 
@@ -178,7 +178,7 @@ Be sure to replace the = with a , and add the measured value from the cardboard 
   (-0.0076185, 0.0271708, 0.999602), -114.0000
 ```  
 
-### 5.) Measure 3D extents of the Sand Surface
+## 5.) Measure 3D extents of the Sand Surface
 
 Note: Be sure to remove the cardboard covering the sandbox from the previous step. 
 
@@ -199,7 +199,7 @@ Add these to the BoxLayout.txt file after the plane equation from the last step.
 
 You can now Exit RawKinectViewer and save BoxLayout.txt
 
-### 6.) Align Projector
+## 6.) Align Projector
 
 Align your projector such that its image fills the interior of your sandbox. You can use the calibration grid drawn by Vrui’s XBackground utility as a guide. In a terminal, run:
 
@@ -211,7 +211,7 @@ After the window showing the calibration grid appears, press the “f11” key t
 
 Press Esc to close XBackground’s window when you’re done.
 
-### 7.) Calibrate the Projector
+## 7.) Calibrate the Projector
 
 Determine the resolution that your projector is running at. In our case it is running at 1024 X 768. 
 
