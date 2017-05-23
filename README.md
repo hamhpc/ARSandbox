@@ -2,6 +2,8 @@
 
 The ARSandbox is an application provided by UC Davis [https://arsandbox.ucdavis.edu/](https://arsandbox.ucdavis.edu/). It's used on a Linux based computer that control's a projector and an Xbox Kinect camera. Using the two, it can project and measure the sand in the box and draw the geological contours of the map in real time. 
 
+Update
+
 [YouTube Video](https://www.youtube.com/embed/j9JXtTj0mzE)
 
 [![AR Sandbox Video](http://img.youtube.com/vi/j9JXtTj0mzE/0.jpg)](http://www.youtube.com/watch?v=j9JXtTj0mzE)
